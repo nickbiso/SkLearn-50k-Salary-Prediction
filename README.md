@@ -1,5 +1,7 @@
 # >50k Salary Prediction
 Dataset is acquired from the following link: https://archive.ics.uci.edu/ml/datasets/adult
+This Dataset has 32561 observations. 
+
 
 # Dataset Summary:
 ## Data is Unbalanced 3:1
@@ -19,6 +21,7 @@ For this exercise I utilized different machine learning algorithms that are avai
 
 ## f1-score
 Different algorithms reacted to sampling methods differently. The over-arching theme here is that balancing the dataset increases the f1-score.
+
 |Machine Learning Algorithm      |	Imbalanced |	Undersampling (Balanced)	|	 Oversampling (Balanced)	  |
 |:----------------------|:-------------------:|:-------------:|:---------------:|
 |	Support Vector Machine|	33%	                |	40%	          |	**42%**	            |
@@ -32,6 +35,7 @@ Different algorithms reacted to sampling methods differently. The over-arching t
 
 ## Accuracy(Test Set)
 Despite increasing the f1-score, balancing the dataset did not perform as well in terms of the accuracy. This can be attributed to the fact that the distribution of the train set and the test set becomes different. 
+
 |Machine Learning Algorithm      |	Imbalanced |	Undersampling (Balanced)	|	 Oversampling (Balanced)	  |
 |	:---	|	:---:	|	:---:	|	:---:	
 |	Support Vector Machine	|	79%	|	25%	|	**79%**	|
