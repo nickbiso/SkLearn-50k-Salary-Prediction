@@ -1,5 +1,5 @@
 # >50k Salary Prediction
-Dataset is acquired from the following link: https://archive.ics.uci.edu/ml/datasets/adult
+Dataset is acquired from the following link: https://archive.ics.uci.edu/ml/datasets/adult. For this exercise we are predicting whether an individual makes ">50k" or "<=50k" in salary. This dataset was collected from the 1994 census data. 
 
 # Dataset Summary:
 
