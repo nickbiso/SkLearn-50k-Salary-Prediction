@@ -16,7 +16,9 @@ Dataset is acquired from the following link: https://archive.ics.uci.edu/ml/data
 
 # Machine Learning Results 
 For this exercise I utilized different machine learning algorithms that are available on sklearn. I used these algorithms on the different sampling methods of the original dataset to balance it.
+
 ## f1-score
+Different algorithms reacted to sampling methods differently. The over-arching theme here is that balancing the dataset increases the f1-score.
 |Machine Learning Algorithm      |	Imbalanced |	Undersampling (Balanced)	|	 Oversampling (Balanced)	  |
 |:----------------------|:-------------------:|:-------------:|:---------------:|
 |	Support Vector Machine|	33%	                |	40%	          |	**42%**	            |
@@ -28,7 +30,8 @@ For this exercise I utilized different machine learning algorithms that are avai
 |	Adaboost	            |	61%               	|	64%	          |	**67%**	            |
 |	Decision Tree	        |	60%                |	**63%**         	|	62%	            |
 
-## Accuracy
+## Accuracy(Test Set)
+Despite increasing the f1-score, balancing the dataset did not perform as well in terms of the accuracy. This can be attributed to the fact that the distribution of the train set and the test set becomes different. 
 |Machine Learning Algorithm      |	Imbalanced |	Undersampling (Balanced)	|	 Oversampling (Balanced)	  |
 |	:---	|	:---:	|	:---:	|	:---:	
 |	Support Vector Machine	|	79%	|	25%	|	**79%**	|
