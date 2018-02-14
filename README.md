@@ -17,7 +17,7 @@ Dataset is acquired from the following link: https://archive.ics.uci.edu/ml/data
 # Machine Learning Results
 
 
-|	                      |	Imbalanced Dataset	|BalancedDataset|                 |
+
 |Machinen Learning      |		                  |	Undersampling	|	 Oversampling	  |
 |:----------------------|:-------------------:|:-------------:|:---------------:|
 |	Support Vector Machine|	33%	                |	40%	          |	42%	            |
