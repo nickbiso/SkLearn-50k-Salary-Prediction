@@ -17,8 +17,7 @@ Dataset is acquired from the following link: https://archive.ics.uci.edu/ml/data
 # Machine Learning Results
 ## Accuracy
 
-
-|Machine Learning Algorith      |	Imbalanced |	Undersampling (Balanced)	|	 Oversampling (Balanced)	  |
+|Machine Learning Algorithm      |	Imbalanced |	Undersampling (Balanced)	|	 Oversampling (Balanced)	  |
 |:----------------------|:-------------------:|:-------------:|:---------------:|
 |	Support Vector Machine|	33%	                |	40%	          |	**42%**	            |
 |	K-Nearest Neighbor	  |	**64%**	                |	60%	          |	62%	            |
@@ -29,3 +28,15 @@ Dataset is acquired from the following link: https://archive.ics.uci.edu/ml/data
 |	Adaboost	            |	**61%**               	|	64%	          |	67%	            |
 |	Decision Tree	        |	**60%**                |	63%         	|	62%	            |
 
+## f1-score
+
+|Machine Learning Algorithm      |	Imbalanced |	Undersampling (Balanced)	|	 Oversampling (Balanced)	  |
+|	:---	|	:---:	|	:---:	|	:---:	
+|	Support Vector Machine	|	79%	|	25%	|	79%	|
+|	K-Nearest Neighbor	|	83%	|	74%	|	75%	|
+|	Random Forest	|	85%	|	80%	|	81%	|
+|	Gradient Boosting	|	86%	|	81%	|	81%	|
+|	Extra Trees	|	82%	|	75%	|	81%	|
+|	Neural Network	|	80%	|	79%	|	78%	|
+|	Adaboost	|	84%	|	75%	|	79%	|
+|	Decision Tree	|	81%	|	79%	|	76%	|
