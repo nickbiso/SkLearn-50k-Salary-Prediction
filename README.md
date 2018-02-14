@@ -1,9 +1,10 @@
 # >50k Salary Prediction
 Dataset is acquired from the following link: https://archive.ics.uci.edu/ml/datasets/adult
-This Dataset has 32561 observations. 
-
 
 # Dataset Summary:
+
+This Dataset has 32561 observations. 
+
 ## Data is Unbalanced 3:1
 ![alt text](https://github.com/nickbiso/50k-Salary-Prediction/blob/master/plots/unbalanced.png)
 
