@@ -15,6 +15,8 @@ Dataset is acquired from the following link: https://archive.ics.uci.edu/ml/data
 ![alt text](https://github.com/nickbiso/50k-Salary-Prediction/blob/master/plots/education.png)
 
 # Machine Learning Results
+
+
 |	                      |	Imbalanced Dataset	|BalancedDataset|                 |
 |Machinen Learning      |		                  |	Undersampling	|	 Oversampling	  |
 |:----------------------|:-------------------:|:-------------:|:---------------:|
