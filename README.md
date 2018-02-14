@@ -15,15 +15,15 @@ Dataset is acquired from the following link: https://archive.ics.uci.edu/ml/data
 ![alt text](https://github.com/nickbiso/50k-Salary-Prediction/blob/master/plots/education.png)
 
 # Machine Learning Results
-|		|	Imbalanced Dataset	|	Balanced Dataset	<td colspan=2>		|
-|		|		|	Undersampling	|	Oversampling	|
-|	:---	|	:---:	|	:---:	|	:---:	
-|	Support Vector Machine	|	33%	|	40%	|	42%	|
-|	K-Nearest Neighbor	|	64%	|	60%	|	62%	|
-|	Random Forest	|	65%	|	69%	|	69%	|
-|	Gradient Boosting	|	69%	|	70%	|	70%	|
-|	Extra Trees	|	44%	|	65%	|	68%	|
-|	Neural Network	|	40%	|	43%	|	41%	|
-|	Adaboost	|	61%	|	64%	|	67%	|
-|	Decision Tree	|	60%	|	63%	|	62%	|
+|	                      |	Imbalanced Dataset	|	Balanced Dataset <td colspan=2>|
+|Machinen Learning Algorithm|		                  |	Undersampling	|	 Oversampling	  |
+|:----------------------|:-------------------:|:-------------:|:---------------:|
+|	Support Vector Machine|	33%	                |	40%	          |	42%	            |
+|	K-Nearest Neighbor	  |	64%	                |	60%	          |	62%	            |
+|	Random Forest	        |	65%	                |	69%	          |	69%	            |           
+|	Gradient Boosting	    |	69%	                |	70%	          |	70%	            |
+|	Extra Trees	          |	44%               	|	65%	          |	68%	            |
+|	Neural Network	      |	40%	                |	43%	          |	41%	            |
+|	Adaboost	            |	61%               	|	64%	          |	67%	            |
+|	Decision Tree	        |	60%	                |	63%         	|	62%	            |
 
